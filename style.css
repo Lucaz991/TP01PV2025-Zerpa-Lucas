@@ -1,0 +1,132 @@
+body {
+    background-color: #fff27c;
+    color: black;
+    font-family: "roboto", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: #fff04a;
+    color: rgb(25, 155, 27);
+    padding: 10px;
+    text-align: center;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+}
+nav {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+}
+section {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #f0e68c;
+    color: rgb(25, 155, 27);
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+}
+
+nav{
+    background: #e9ffc5;
+    padding: 1px ;
+    font-size: 10px;
+}
+nav ul{
+    text-align: center;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration:underline;
+    font-weight:900;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div.classcaja1  {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+
+}
+div.classcaja2  {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: #56b928 solid 5px;
+    border-radius: 15px;
+}
+
+
+div.contenedor {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+
+}
+div.caja1 {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border: #3f672d solid 4px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 5px ;
+    height: 50%;
+}
+div.caja2 {
+    background-color: #f0e68c;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    border:#3f672d solid 4px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 5px ;
+    height: 50%;
+    
+}
+
+h2
