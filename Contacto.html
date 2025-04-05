@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
@@ -20,9 +20,12 @@
     <main>
         <section>
             <h2>Contactanos</h2>
-            <form>  
-                <label for="NombreApellido">Nombre y Apellido:</label>
-                <input type="text" id="NombreApellido" name="NombreApellido" required>
+            <form id="Forma de Contacto">   
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" required>
+
+                <label for="Apellido">Apellido</label>
+                <input type="text" id="Apellido" name="Apellido" required>
 
                 <label for="email">Correo Electronico:</label>
                 <input type="email" id="email" name="email" required>
@@ -30,7 +33,7 @@
                 <label for="mensaje">Mensaje:</label>
                 <textarea name="mensaje" id="mensaje"></textarea>
 
-                <button type="submit">Enviar mensaje</button>
+                <button type="submit" onclick="mostrarDatos()">Enviar mensaje</button> 
             </form>
         </section>
     </main>
@@ -39,5 +42,16 @@
         <p>&copy; 2025 Cultura Brasileña</p>
         <p> Desarrollado por Lucas Zerpa </p>
     </footer>
+    <script>
+        function mostrarDatos() {
+            event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+            var Nombre = document.getElementById("Nombre").value;
+            var Apellido = document.getElementById("Apellido").value;
+            // Recupera los valores de los campos del formulario desde el DOM 
+            // console.log("nombre:" + nombre);
+            console.log("Apellido:" + Apellido);
+            alert(" Gracias por contactarnos " + Nombre + " " + Apellido + " nos comunicaremos a la brevedad. " );
+        }
+    </script>
 </body>
 </html>
